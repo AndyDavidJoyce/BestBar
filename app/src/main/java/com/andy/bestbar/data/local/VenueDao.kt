@@ -16,8 +16,11 @@ interface VenueDao {
     @Query("SELECT * FROM venues")
     fun getAllVenues(): List<Venue>
 
-    @Query("SELECT * FROM venues WHERE name :name")
-    fun getVenueWithName(venueName: String): Venue
+    /*(@Query("SELECT * FROM venues WHERE type = :type")
+    fun getAllVenuesWithType(type: String)*/
+
+    /*@Query("SELECT * FROM venues WHERE name = :venueName")
+    fun getVenueWithName(venueName: String): Venue*/
 
     @Insert
     fun insertVenues(venues: List<Venue>)

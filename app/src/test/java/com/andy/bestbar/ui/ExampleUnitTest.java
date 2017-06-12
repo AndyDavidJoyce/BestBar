@@ -1,4 +1,4 @@
-package com.andy.bestbar;
+package com.andy.bestbar.ui;
 
 import org.junit.Test;
 

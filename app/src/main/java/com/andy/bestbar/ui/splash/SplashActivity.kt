@@ -1,4 +1,4 @@
-package com.andy.bestbar.ui
+package com.andy.bestbar.ui.splash
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
